@@ -1,0 +1,47 @@
+{
+    "timetable": [
+        "9:30",
+        "11:10",
+        "13:30",
+        "15:10",
+        "16:50"
+    ],
+    "schedules": {
+        "Network Programming": {
+            "period": "mon1",
+            "roomNumber": "203"
+        },
+        "Algorithm": {
+            "period": "mon3",
+            "roomNumber": "203"
+        },
+        "Experiments": {
+            "period": "mon4",
+            "roomNumber": "321"
+        },
+        "AI Programming": {
+            "period": "mon5",
+            "roomNumber": "117"
+        },
+        "Probability": {
+            "period": "wed1",
+            "roomNumber": "3350"
+        },
+        "Multivariate Analysis": {
+            "period": "wed2",
+            "roomNumber": "6103"
+        },
+        "Computational Complexity": {
+            "period": "wed4",
+            "roomNumber": "228"
+        },
+        "Operating System": {
+            "period": "fri1",
+            "roomNumber": "204"
+        },
+        "Systems Theory": {
+            "period": "fri2",
+            "roomNumber": "6103"
+        }
+    }
+}

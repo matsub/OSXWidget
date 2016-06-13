@@ -1,0 +1,29 @@
+table, th, td, tr{
+	text-align: center;
+	font-family: "Avenir-Light";
+}
+table{
+	margin: 2% 0;
+	width: 100%;
+}
+th, td{
+	font-size: 0.8em;
+	color: #d4a35b;
+}
+th{
+	width: 6%;
+}
+td{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 0;
+	padding: 1% 0;
+	width: 18%
+}
+tr.title{
+	background-color: #c29048;
+}
+tr.title td{
+	font-size: 1em;
+	color: #fdcd77;
+}
