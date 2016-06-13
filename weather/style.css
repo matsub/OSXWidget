@@ -1,0 +1,111 @@
+div{
+	float: left;
+	margin: 0;
+	color: #fdcd77;
+	font-size: 16px;
+	font-family: monospace;
+	text-align: center;
+	text-shadow: 1px 1px 0 #9c6236,
+		-1px 1px 0 #9c6236,
+		1px -1px 0 #9c6236,
+		-1px -1px 0 #9c6236;
+}
+p{
+	margin: 4px 8px;
+}
+canvas{
+	margin: 0 auto;
+	width: 80px;
+	height: 80px;
+}
+a{
+	color: #fdcd77;
+	text-decoration: none;
+}
+input{
+	background: #fdcd77;
+	width: 96px;
+	border: solid 1.5px #9c6236;
+	border-radius: 8px;
+	color: #fdcd77;
+	font-size: 12px;
+	font-family: monospace;
+	text-align: center;
+	text-shadow: 1px 1px 0 #9c6236,
+		-1px 1px 0 #9c6236,
+		1px -1px 0 #9c6236,
+		-1px -1px 0 #9c6236;
+}
+
+/* common */
+div.button{
+	margin: 16px 0;
+	padding-bottom: 0;
+	width: 2px;
+	height: 88px;
+	background-color: #fdcd77;
+}
+div.left{
+	width: 4px;
+	background-color: #9c6236;
+}
+p.temperature:after {
+	content: "\2103";
+}
+p.max:before {
+	content: "\25bc\20";
+	text-shadow: 0px 2px 0 #9c6236,
+		2px -1px 0 #9c6236,
+		-2px -1px 0 #9c6236;
+}
+p.min:before {
+	content: "\25b2\20";
+	text-shadow: 2px 1px 0 #9c6236,
+		-2px 1px 0 #9c6236,
+		0px -2px 0 #9c6236;
+}
+
+
+/* daily */
+div#weather{
+	height: 102px;
+	width: 120px;
+	overflow: hidden;
+}
+div#weather p{
+	position: relative;
+	height: 24px;
+	padding-bottom: 8px;
+	white-space: nowrap;
+}
+div#temperature{
+	margin: 24px 6px;
+}
+div#temperature p{
+	margin: 24px 0;
+	font-size: 36px;
+}
+div#detail{
+	margin: 0 6px;
+}
+div#detail p{
+	margin: 14px 0;
+}
+
+
+/* weekly */
+div.day{
+	margin: 16px 0;
+}
+div.day div{
+	float: right;
+	margin: 0 12px;
+}
+div.day div p{
+	margin: 12px 4px;
+	font-size: 14px;
+}
+div.day canvas{
+	width: 64px;
+	height: 64px;
+}

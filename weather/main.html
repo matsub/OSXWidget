@@ -1,0 +1,30 @@
+<html>
+<head>
+	<meta cahrset="utf-8">
+	<title>WEATHER</title>
+	<link rel="stylesheet" type="tesxt/css" href="style.css">
+	<script src="icons.js"></script>
+	<script src="jquery-2.1.4.min.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+	<a href="weekly.html">
+	<div id="weather">
+		<canvas width="160px" height="160px"></canvas>
+		<p>WEATHER</p>
+	</div>
+	</a>
+	<div id="temperature">
+		<form action="#" onsubmit="return refresh()">
+			<input class="location" type="text" value="LOCATION">
+		</form>
+		<p class="temperature">xx.xx</p>
+	</div>
+	<a href="weekly.html">
+		<div id="detail">
+			<p class="max temperature">MAX</p>
+			<p class="min temperature">MIN</p>
+		</div>
+	</a>
+</body>
+</html>
